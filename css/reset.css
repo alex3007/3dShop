@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+em,
+img,
+strong,
+sub,
+sup,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+a,
+blockquote {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+}
+
+body *:focus {
+    outline: none;
+}
+
+button,
+input[type='submit'] {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    width: auto;
+}
+
+button,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+p.error {
+    color: #f92d2d;
+    border: 1px solid #f92d2d;
+}
+
+p.success {
+    color: #45bd63;
+    border: 1px solid #45bd63;
+}
+
+p.error,
+p.success {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+}
