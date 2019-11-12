@@ -778,11 +778,17 @@ p.main-text {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #f8f8f8;
 }
 
 #map {
     width: 100%;
-    height: 450px;
+    height: 525px;
+}
+
+#map-contacts{
+    width: 40%;
+    height: 665px;
 }
 
 .contacts-homepage #map {
@@ -803,9 +809,10 @@ p.main-text {
 }
 
 .contacts-wrap {
-    width: 50%;
+    width: 60%;
     padding: 40px;
     background-color: #f8f8f8;
+    margin: 0 auto;
 }
 
 .icon-mail a {
@@ -1856,6 +1863,8 @@ a.button_buy:hover {
     background: url(../images/main/sale.jpg) ;
     animation: city 25s linear infinite;
     -webkit-animation: city 25s linear infinite;
+    -moz-animation: city 25s linear infinite;
+    -o-animation: city 25s linear infinite;
     height: 300px;
     margin-top: 70px;
     background-repeat: no-repeat;
@@ -1877,8 +1886,38 @@ a.button_buy:hover {
     }
 }
 
+@-moz-keyframes city {
 
+    0% {
+        margin-left: -200%;
+    }
+
+    50% {
+        margin-left: 200%;
+    }
+
+    100% {
+        margin-left: 200%;
+    }
+}
+    
 @-webkit-keyframes city {
+
+    0% {
+        margin-left: -200%;
+    }
+
+    50% {
+        margin-left: 200%;
+    }
+
+    100% {
+        margin-left: 200%;
+    }
+
+}
+
+@-o-keyframes city {
 
     0% {
         margin-left: -200%;

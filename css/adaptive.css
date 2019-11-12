@@ -41,6 +41,10 @@
 
 
 @media screen and (max-width: 991px) {
+    
+    #map-contacts{
+    height: 765px;
+}
 
     .wrap {
         width: 700px;
@@ -173,6 +177,12 @@
 
 
 @media screen and (max-width: 767px) {
+    
+    
+#map-contacts{
+    width: 100%;
+    height: 375px;
+}
     
     .advert__greeting {
     display: none;
