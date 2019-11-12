@@ -307,6 +307,10 @@ button.icon {
     margin-top: 20px;
 }
 
+.block-title{
+    text-align: center;
+}
+
 
 #about-us{
 margin-bottom: 100px!important;    
@@ -368,6 +372,9 @@ margin-bottom: 100px!important;
     max-width: 800px;
 }
 
+p.main-text {
+    text-align: center;
+}
 .about .text-block {
     max-width: none;
 }
@@ -1560,66 +1567,27 @@ footer .main-menu span {
 }
 
 
-/* catalog */
+/*-- catalog --*/
 
-.content-field {
-
-    width: 80%;
-
-    margin: auto;
-
-    margin-bottom: 20px;
-
-    background-color: white;
-
-    -webkit-border-radius: 5px;
-
-    -moz-border-radius: 5px;
-
-    border-radius: 10px;
-
+.catalog{
+    background-color: #ffffff;
 }
 
-
-.content-field table {
-
-    width: 100%;
-    padding: 25px;
-
+img.box{
+    width: 22px;
+    margin-right: 15px;
 }
 
-
-.content-field__block-txt {
-
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-
+img.arrow{
+    width: 35px;
+    margin-right: 10px;
 }
 
-
-
-.content-field__block-txt p {
-
-    color: black;
-    text-align: left;
+img.load{
+    width: 22px;
+    float: left;
+    margin-right: 10px
 }
-
-.content-field__block-txt h4 {
-
-    color: #388EBD;
-    font-size: 22px;
-    text-align: center;
-}
-
-
-.content-field__block-txt h5 {
-
-    text-align: center;
-    color: dimgray;
-    font-size: 18px;
-}
-
 
 .catalog__content {
 
@@ -1639,7 +1607,7 @@ footer .main-menu span {
 
     font-size: 28px;
     font-weight: bold;
-    color: darkblue;
+    color: #B07B7B;
 }
 
 .catalog__content h3 {
@@ -1652,23 +1620,24 @@ footer .main-menu span {
 .catalog__content p {
 
     font-size: 16px;
-    color: black;
+    color: #333333;
     text-align: left;
 
 }
 
 
 
-.catalog__content h4 {
+.catalog h4 {
 
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    color: darkblue;
+    color: #B07B7B;
+    text-align: center;
 }
 
 .catalog__content table {
 
-    border: 1px solid grey;
+    border: 2px double grey !important;
     color: black;
     max-width: 1000px;
     margin-left: auto;
@@ -1678,117 +1647,13 @@ footer .main-menu span {
 
 
 .catalog__content td {
-    border: 1px solid grey;
+    border: 2px double grey !important;
+    padding-left: 5px;
 }
 
 
 .catalog__materials h2 {
     text-align: left;
-
-}
-
-
-#table3 {
-    font-size: 18px;
-    color: black;
-}
-
-.table4 h3 {
-    font-size: 18px;
-    color: black;
-}
-
-#table4 {
-    font-size: 18px;
-    color: black;
-}
-
-
-.articles__content {
-
-    width: 80%;
-
-    margin: auto;
-
-    margin-bottom: 20px;
-
-    background-color: white;
-
-    -webkit-border-radius: 5px;
-
-    -moz-border-radius: 5px;
-
-    border-radius: 10px;
-
-}
-
-
-.articles__content table {
-
-    width: 100%;
-    padding: 25px;
-
-}
-
-
-.articles__content td {
-
-    padding-left: 25px;
-
-    padding-right: 25px;
-
-}
-
-
-
-#db_catalog ul {
-
-    margin: 0px;
-
-    padding: 0px;
-
-    text-align: center;
-
-}
-
-
-
-#db_catalog li {
-    text-align: center;
-
-    list-style-type: none;
-
-    display: inline-block;
-
-    margin-right: -4px;
-
-    font-size: 25px;
-
-    vertical-align: top;
-
-}
-
-
-
-
-
-#db_catalog {
-
-    background-color: grey;
-
-    height: 26px;
-
-    width: 70%;
-
-    margin: auto;
-
-    padding: 0px;
-
-    -webkit-border-radius: 5px;
-
-    -moz-border-radius: 5px;
-
-    border-radius: 0px 0px 10px 10px;
 
 }
 
@@ -1820,18 +1685,13 @@ footer .main-menu span {
     font-size: 18px;
     position: relative;
     top: -25px;
-
 }
-
-
 
 .printers__model,
 .footer__inl-block,
 .inl-block {
-
     display: inline-block;
     vertical-align: middle;
-
 }
 
 .printers__model_position {
@@ -1844,8 +1704,7 @@ footer .main-menu span {
 
 
 .inl-block__position {
-
-    width: 300px;
+    width: 260px;
     margin-right: 30px;
     margin-bottom: 60px;
 }
@@ -1890,13 +1749,16 @@ a.description {
     background-color: #0fba09;
     color: white;
     font-size: 16px;
-    padding: 8px 15px;
+    padding: 8px 2px;
     border-radius: 8px;
+    max-width: 220px;
 
 }
 
 a.description:hover {
     background-color: #eca613;
+    text-decoration: none;
+    color: white;
 
 }
 
@@ -1907,11 +1769,37 @@ a.description2 {
     font-size: 16px;
     padding: 8px 15px;
     border-radius: 8px;
+    margin-bottom: 5px;
+    text-decoration: none;
 }
 
 a.description2:hover {
 
     background-color: #0fba09;
+    text-decoration: none;
+    color: white;
+}
+
+.description3 {
+    font-size: 16px;
+    background-color: #388EBD;
+    color: white;
+    font-size: 16px;
+    padding: 8px 35px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    max-width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description3:hover {
+
+    background-color: #0fba09;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
 a.back {
@@ -1928,119 +1816,6 @@ a.back:hover {
     background-color: #eca613;
 
 }
-
-
-
-
-
-a.but {
-
-    font-weight: 400;
-    background: rgba(255, 255, 255, 0.5);
-    font-size: 18px;
-    color: #fff;
-    padding: 10px 50px;
-    border: none;
-    cursor: pointer;
-    margin-right: 5px;
-
-
-}
-
-a.but:hover {
-
-    font-weight: 400;
-    background: rgba(255, 255, 255, 0.2);
-    font-size: 18px;
-    color: #fff;
-    padding: 10px 50px;
-    border: none;
-    cursor: pointer;
-
-}
-
-a.butBl {
-    display: inline-block;
-    width: 170px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-
-
-
-a.but2 {
-
-    font-weight: 400;
-    background: rgba(129, 203, 223, 0.8);
-    font-size: 18px;
-    color: #fff;
-    padding: 10px 50px;
-    border: none;
-    cursor: pointer;
-
-
-}
-
-a.but2:hover {
-
-    font-weight: 400;
-    background: rgba(129, 203, 223, 0.5);
-    font-size: 18px;
-    color: #fff;
-    padding: 10px 50px;
-    border: none;
-    cursor: pointer;
-
-}
-
-
-
-
-a.ab_button {
-    opacity: 1;
-
-
-
-}
-
-a.ab_button:hover {
-    opacity: 0.7;
-
-
-
-}
-
-
-
-
-
-
-a.button_catalog {
-
-    margin-top: -6px;
-
-    background: url(../images/buttons/catalog_2.jpg);
-
-    display: block;
-
-    width: 107px;
-
-    height: 70px;
-
-}
-
-a.button_catalog:hover {
-
-    background: url(../images/buttons/catalog_1.jpg);
-
-    height: 71px;
-
-}
-
-
-
-
 
 a.button_buy {
     margin-bottom: 10px;
@@ -2063,32 +1838,18 @@ a.button_buy:hover {
 
 }
 
-a.button_more {
-
-    background: url(../images/buttons/more_2.jpg);
-
-    display: inline-block;
-
-    width: 200px;
-
-    height: 37px;
-
-}
-
-a.button_more:hover {
-
-    background: url(../images/buttons/more_1.jpg);
-}
-
-
 /*--- gallery-slider ---*/
 
 .gallery-slider{
     width: 200px;
-    height: 300px;
+    height: 320px;
 }
 
-/*background moving*/
+/*-- background moving --*/
+
+.advert-block{
+    overflow: hidden;
+}
 
 .advert {
 
@@ -2097,34 +1858,53 @@ a.button_more:hover {
     -webkit-animation: city 25s linear infinite;
     height: 300px;
     margin-top: 70px;
+    background-repeat: no-repeat;
 }
+
 
 @keyframes city {
-    from {
-        background-position: -1494px 100%, 0 0;
+
+    0% {
+        margin-left: -200%;
     }
 
-    to {
-        background-position: 0 100%, 0 0;
+    50% {
+        margin-left: 200%;
+    }
+
+    100% {
+        margin-left: 200%;
     }
 }
+
 
 @-webkit-keyframes city {
-    from {
-        background-position: -1000px 100%, 0 0;
+
+    0% {
+        margin-left: -200%;
     }
 
-    to {
-        background-position: 0 100%, 0 0;
+    50% {
+        margin-left: 200%;
     }
+
+    100% {
+        margin-left: 200%;
+    }
+
 }
+
+
+
 
 .advert__greeting {
     -webkit-animation: change_color 7s infinite;
     -moz-animation: change_color 7s infinite;
     -o-animation: change_color 7s infinite;
     animation: change_color 7s infinite;
-    height: 190px!important;
+    position: fixed;
+    width: 100px;
+    right: 10px;
 }
 
 
@@ -2144,8 +1924,9 @@ a.button_more:hover {
     30%{opacity: 1; }
     50%{opacity: 1; }
     to {opacity: 0.1; }
+}
 
-}@keyframes change_color {
+@keyframes change_color {
     
     from {opacity: 0.1;}
     30%{opacity: 1; }
@@ -2153,4 +1934,30 @@ a.button_more:hover {
     to {opacity: 0.1; }
 
 }
+
+
+/*--- phone form ---*/
+
+#submit{
+    
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+
+button.md-close{
+    padding: 5px 10px;
+    border-radius: 7px;
+    position: absolute;
+    right: 10px;
+}
+
+.fa-times{
+    color: darkgreen;
+}
+
+#contact{
+    
+    padding-top: 30px!important;
+}
+
                          

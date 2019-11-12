@@ -365,13 +365,12 @@ h2.post-title{
     color: #007bff; 
     font-size: 25px;
 }
-.post-image{
-    
-max-width: 600px;    
-}
+
 
 .post-image-block{
-  text-align: center;   
+  text-align: center;
+  max-width: 600px;
+    margin: 0 auto;
 }
 /*-----------Cards----------------*/
 .card-img{

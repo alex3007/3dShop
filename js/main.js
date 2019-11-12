@@ -12,7 +12,7 @@ $(document).ready(function () {
         smoothHeight: false,
         startAt: 0,
         slideshow: true,
-        slideshowSpeed: 5000,
+        slideshowSpeed: 3000,
         animationSpeed: 3000,
         initDelay: 0,
         randomize: false,
