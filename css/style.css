@@ -256,13 +256,13 @@ button.icon {
 
 .btn-default {
     text-align: center;
-    color: #5f5f5f;
-    border: 1px solid #999999!important;
+    color: #ba8b00!important;
+    border: 1px solid #ba8b00!important;
 }
 
 .btn-default:hover{
-    color: #fff;
-    background-color: #f0b930!important;
+    color: #ffffff!important;
+    background-color: #ba8b00!important;
     
 }
 
@@ -309,6 +309,7 @@ button.icon {
 
 .block-title{
     text-align: center;
+    color: #ba8b00 !important; 
 }
 
 
@@ -840,9 +841,13 @@ p.main-text {
     font-size: 18px;
 }
 
+.socials{
+text-align: center;    
+}
+
 .socials a {
     display: inline-block;
-    width: 30px;
+    width: 35px;
     height: 30px;
     margin-right: 10px;
     vertical-align: top;
@@ -852,7 +857,15 @@ p.main-text {
     -moz-background-size: 24px auto;
     -o-background-size: 24px auto;
     background-size: 24px auto;
+    color: #cda93e;
 }
+
+.socials a:hover {
+    text-decoration: none;
+    background-size: 24px auto;
+    color: #444444;
+}
+
 
 .callback-wrap > * {
     display: inline-block;

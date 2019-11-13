@@ -29,15 +29,14 @@
 
 .flex-caption a {
     background: transparent !important;
-    border: 1px solid #cda93e;
-    color: #cda93e !important;
+    border: 1px solid #ba8b00;
+    color: #ba8b00 !important;
 
 }
 
 .flex-caption a:hover {
-    background: #cda93e !important;
-    border: 1px solid #fff;
-    color: #000000 !important;
+    background: #ba8b00 !important;
+    color: #ffffff !important;
 }
 
 /*--- Banner ----*/
@@ -86,7 +85,7 @@
 
 #production {
     padding-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 110px;
     color: #666666;
 }
 

@@ -348,6 +348,9 @@
     .blog-item.blog-item-long .blog-item-image {
         width: 150px;
     }
+    .line{
+        margin-bottom: 0px!important;
+    }
 }
 
 @media screen and (max-width: 600px) {
