@@ -1,5 +1,8 @@
 $(document).ready(function () {
-
+    
+    //wow animation
+    new WOW().init();
+    
     //flexSlider
     $('#main-slider').flexslider({
         namespace: "flex-",
@@ -13,7 +16,7 @@ $(document).ready(function () {
         startAt: 0,
         slideshow: true,
         slideshowSpeed: 3000,
-        animationSpeed: 3000,
+        animationSpeed: 1000,
         initDelay: 0,
         randomize: false,
 
@@ -45,7 +48,7 @@ $(document).ready(function () {
         asNavFor: "",
     });
 
-    //OwlSlider
+    //OwlCarousel
 
     var owl = $('.owl-carousel');
     var winWidth = $(window).width();
