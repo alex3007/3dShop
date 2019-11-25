@@ -49,16 +49,6 @@
     margin-top: 52px;
 }
 
-/*
-.banner-container:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    background:rgba(41, 80, 117, 0.55);
-}*/
-
 .slides-image {
     margin: 0;
     padding-bottom:0px;

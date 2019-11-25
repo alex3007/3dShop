@@ -32,7 +32,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: dodgerblue;
+    color: #ebc242;
 }
 
 p {
@@ -545,7 +545,7 @@ p.main-text {
 }
 
 .category-item:hover {
-    border-color:rgba(0,0,0,0.3);
+    border-color: rgba(0,0,0,0.3);
 }
 
 .category-item a,
