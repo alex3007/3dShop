@@ -171,24 +171,41 @@ button.icon {
     padding: 2px 0;
 }
 
-.top-contacts-item{
-    
+.top-contacts-item {
+
     display: inline-block;
     margin-left: 10px;
 }
 
-.top-contacts-link, .icons{
+.top-contacts-link,
+.icons {
     color: #ffffff;
 }
 
-.top-contacts-link:hover, .icons:hover {
+.top-contacts-link:hover,
+.icons:hover {
     text-decoration: none;
     color: #ebc242;
 }
 
-.icons{
-   margin-left: 10px;
-   
+.icons {
+    margin-left: 10px;
+
+}
+
+.btn-menu {
+    background-color: #ffffff!important;
+     color: #666666!important;
+    border: 0px!important;
+    font-size: 17px!important;
+}
+
+.btn-menu:focus {
+       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)!important;
+    
+   }
+.btn-menu:hover {
+    color: #e8c00a !important;
 }
 
 .navbar-nav {
@@ -261,6 +278,10 @@ button.icon {
 
 .main-menu a:hover {
     color: #e8c00a;
+}
+
+.nav-link {
+    padding-top: 5px !important;
 }
 
 .btn {
@@ -570,13 +591,13 @@ p.main-text {
 
 .category-item:hover {
     border-color: rgba(0, 0, 0, 0.3);
-    transform: translate(0,-10px);
-    -webkit-transform: translate(0,-10px);
-    -o-transform: translate(0,-10px);
-    -moz-transform: translate(0,-10px);
+    transform: translate(0, -10px);
+    -webkit-transform: translate(0, -10px);
+    -o-transform: translate(0, -10px);
+    -moz-transform: translate(0, -10px);
 }
 
-.category-item:hover img{
+.category-item:hover img {
     -o-transform: scale(1.05, 1.05);
     -ms-transform: scale(1.05, 1.05);
     -moz-transform: scale(1.05, 1.05);
