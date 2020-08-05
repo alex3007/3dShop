@@ -37,43 +37,13 @@
     <changefreq>Monthly</changefreq>
   </url>
   <url>
-    <loc>https://by3d.by/shop-plastic.html</loc>
-    <lastmod>2020-01-11T17:56:59+00:00</lastmod>
-    <priority>0.9</priority>
-    <changefreq>Monthly</changefreq>
-  </url>
-  <url>
     <loc>https://by3d.by/catalog/plastic-petg.html</loc>
     <lastmod>2020-01-11T17:57:08+00:00</lastmod>
     <priority>0.8</priority>
     <changefreq>Monthly</changefreq>
   </url>
   <url>
-    <loc>https://by3d.by/catalog/printerPremier.html</loc>
-    <lastmod>2020-01-11T17:57:08+00:00</lastmod>
-    <priority>0.8</priority>
-    <changefreq>Monthly</changefreq>
-  </url>
-  <url>
     <loc>https://by3d.by/delivery-payment.html</loc>
-    <lastmod>2020-01-11T17:56:59+00:00</lastmod>
-    <priority>0.9</priority>
-    <changefreq>Monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://by3d.by/catalog/printerScara.html</loc>
-    <lastmod>2020-01-11T17:57:08+00:00</lastmod>
-    <priority>0.8</priority>
-    <changefreq>Monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://by3d.by/catalog/plastic-flex.html</loc>
-    <lastmod>2020-01-11T17:57:08+00:00</lastmod>
-    <priority>0.8</priority>
-    <changefreq>Monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://by3d.by/shop-parts.html</loc>
     <lastmod>2020-01-11T17:56:59+00:00</lastmod>
     <priority>0.9</priority>
     <changefreq>Monthly</changefreq>
@@ -86,12 +56,6 @@
   </url>
   <url>
     <loc>https://by3d.by/catalog/plastic-pla.html</loc>
-    <lastmod>2020-01-11T17:57:08+00:00</lastmod>
-    <priority>0.8</priority>
-    <changefreq>Monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://by3d.by/catalog/printerFood.html</loc>
     <lastmod>2020-01-11T17:57:08+00:00</lastmod>
     <priority>0.8</priority>
     <changefreq>Monthly</changefreq>
