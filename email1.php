@@ -9,7 +9,7 @@ if($post) {
   if(!$sub) {$error .= 'Укажите телефон или e-mail. ';}
   if(!$message || strlen($message) < 1) {$error .= 'Укажите товар ';}
   if(!$error) {
-    $address = "alex300785@tut.by";
+    $address = "by3dby@yandex.by";
     $mes = "Заказ товара:\n\nИмя: ".$name."\n\nКонтакт: " .$sub."\n\nТовар: ".$message."\n\n";
     $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = UTF-8\r\nОт:$email");
     header('Content-type: text/html; charset=utf-8');  

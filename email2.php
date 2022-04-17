@@ -8,7 +8,7 @@ if($post) {
   if(!$name) {$error .= 'Укажите свое имя. ';}
   if(!$sub) {$error .= 'Укажите номер телефона. ';}
   if(!$error) {
-    $address = "alex300785@tut.by";
+    $address = "by3dby@yandex.by";
     $mes = "Заказ звонка:\n\nИмя: ".$name."\n\nТелефон" .$sub."\n\n";
      $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = UTF-8\r\nОт:$email");
      header('Content-type: text/html; charset=utf-8'); 
