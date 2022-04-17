@@ -228,6 +228,9 @@ button.icon {
     color: #e8c00a !important;
 }
 
+.navbar-right {
+    text-align: center!important;
+}
 
 .main-menu {
     display: table;
