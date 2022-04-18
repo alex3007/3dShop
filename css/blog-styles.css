@@ -44,7 +44,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #555;
+    color:deepskyblue;
     text-decoration: none;
     outline: none;
 }
