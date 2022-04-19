@@ -72,8 +72,7 @@ text-align:center;
                
               
               }
-  }
-  else {echo '<div class="err">'.$error.'</div>';}
+  } else {echo '<div class="err">'.$error.'</div>';}
 }
 
 

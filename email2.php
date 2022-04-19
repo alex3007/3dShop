@@ -69,9 +69,7 @@ text-align:center;
 
   
   
-  </style> ";      
-        }
-  }
-  else {echo '<div class="err">'.$error.'</div>';}
+  </style>" }
+  } else {echo "<div class='err'><h2>Извините, произошла ошибка</h2></div>";}
 }
 ?>
